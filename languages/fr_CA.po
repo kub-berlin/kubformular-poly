@@ -1,0 +1,344 @@
+# Translation of Yoko in French (Canada)
+# This file is distributed under the same license as the Yoko package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2014-07-03 03:44:21+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/1.0-alpha-1000\n"
+"Project-Id-Version: Yoko\n"
+
+#: header.php:23
+msgid "Menu"
+msgstr "Menu"
+
+#. Description of the plugin/theme
+#: wp-content/themes/pub/yoko/style.css
+msgid "Yoko is a modern three-column blog theme. A responsive layout optimizes the theme for mobile devices like tablet pcs and modern smartphones (the layout switches to a two- or one-column layout depending on the screen size the theme is viewed on). To make your blog post more flexible you can use different kinds of post formats such as gallery, image, video, aside, link or quotes. To customize the theme you can choose your own background, link color, and header image."
+msgstr "Yoko est un thème moderne en trois colonnes de style réactif, ce qui le rend particulièrement adapté aux mobiles, tablettes et téléphones intelligents, grâce à une mise en page intuitive qui adapte le nombre de colonnes dispensées latéralement (une ou deux) à la largeur de chaque écran. Profitez de toute la panoplie des formats d’articles (galerie, image, vidéo, aparté, lien ou citation) pour gagner en souplesse, et personnalisez l’apparence avec vos propres images d’en-tête et d’arrière-plan, et des liens de couleur adéquate."
+
+#. Template Name of the plugin/theme
+#: wp-content/themes/pub/yoko/full-width-page.php
+msgid "Full-width, no sidebar"
+msgstr "Pleine-Largeur, Sans Colonne latérale"
+
+#: tag.php:16
+msgid "Tag Archives: %s"
+msgstr "Archives de mot-clé : %s"
+
+#: sidebar.php:25
+msgid "Meta"
+msgstr "Méta"
+
+#: sidebar.php:19
+msgid "Archives"
+msgstr "Archives"
+
+#: searchform.php:11
+msgid "Search"
+msgstr "Chercher"
+
+#: searchform.php:9
+msgctxt "label"
+msgid "Search for:"
+msgstr "Recherche pour&nbsp;:"
+
+#: search.php:34
+msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+msgstr "Désolé, mais rien ne correspond à vos critères. Réessayez en modifiant les termes de recherche."
+
+#: search.php:30
+msgid "Nothing Found"
+msgstr "Inaccessible"
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr "Résultats de recherche pour : %s"
+
+#: inc/theme-options/theme-options.php:101
+msgid "Default color: #009bc2"
+msgstr "Couleur par défaut&nbsp;: #009bc2"
+
+#: inc/theme-options/theme-options.php:114
+msgid "%s Theme Options"
+msgstr "Options du thème %s"
+
+#: inc/theme-options/theme-options.php:98
+msgid "Select a Color"
+msgstr "Choisir une couleur"
+
+#: inc/theme-options/theme-options.php:59
+#: inc/theme-options/theme-options.php:60
+msgid "Theme Options"
+msgstr "Options du thème"
+
+#: inc/custom-header.php:60
+msgid "Cape"
+msgstr "Cap"
+
+#: inc/custom-header.php:65
+msgid "Seagull"
+msgstr "Mouette"
+
+#: inc/theme-options/theme-options.php:42
+msgid "Link Color"
+msgstr "Couleur des liens"
+
+#: inc/custom-header.php:40
+msgid "Ginko"
+msgstr "Ginko"
+
+#: inc/custom-header.php:45
+msgid "Flowers"
+msgstr "Fleurs"
+
+#: inc/custom-header.php:50
+msgid "Plant"
+msgstr "Installation"
+
+#: inc/custom-header.php:55
+msgid "Sailing"
+msgstr "Voile"
+
+#: image.php:96
+msgid "Both comments and trackbacks are currently closed."
+msgstr "Les commentaires et rétroliens sont fermés."
+
+#: image.php:94
+msgid "Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">post a comment</a>."
+msgstr "Les rétroliens sont fermés, mais vous pouvez <a class=\"comment-link\" href=\"#respond\" title=\"Laisser un commentaire\">laisser un commentaire</a>"
+
+#: image.php:92
+msgid "Comments are closed, but you can leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "Les commentaires sont fermés mais vous pouvez laisser une rétrolien : <a class=\"trackback-link\" href=\"%s\" title=\"Adresse de rétrolien pour votre article\" rel=\"trackback\">Adresse URL du rétrolien</a>."
+
+#: image.php:90
+msgid "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "<a class=\"comment-link\" href=\"#respond\" title=\"Laisser un commentaire\">Laisser un commentaire</a> ou un rétrolien : <a class=\"trackback-link\" href=\"%s\" title=\"URL du r&eacute;trolien\" rel=\"trackback\">Adresse URL du rétrolien</a>."
+
+#: image.php:28
+msgid "Next Image &rarr;"
+msgstr "Image suivante &rarr;"
+
+#: image.php:27
+msgid "&larr; Previous Image"
+msgstr "&larr; Image précédente"
+
+#: functions.php:341
+msgid "An optional second sidebar area"
+msgstr "Une deuxième colonne latérale, optionnelle."
+
+#: functions.php:435
+msgid "Page %s"
+msgstr "Page %s"
+
+#: functions.php:331
+msgid "Primary sidebar area"
+msgstr "Zone de colonne latérale principale"
+
+#: functions.php:339
+msgid "Sidebar 2"
+msgstr "Colonne latérale 2"
+
+#: functions.php:329
+msgid "Sidebar 1"
+msgstr "Colonne latérale 1"
+
+#: functions.php:316
+msgid "Pingback:"
+msgstr "Ping :"
+
+#: functions.php:301
+msgid "Your comment is awaiting moderation."
+msgstr "Votre commentaire est en attente de modération."
+
+#: functions.php:295
+msgid "%1$s at %2$s"
+msgstr "%1$s à %2$s"
+
+#. translators: used between list items, there is a space after the comma
+#: functions.php:161
+msgid "Tags: %2$s | <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">Permalink</a>."
+msgstr "Mots-clés : %2$s | <a href=\"%3$s\" title=\"Permalien vers %4$s\" rel=\"bookmark\">Permalien</a>."
+
+#: functions.php:163
+msgid "<a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">Permalink</a>."
+msgstr "<a href=\"%3$s\" title=\"Permalien vers %4$s\" rel=\"bookmark\">Permalien</a>."
+
+#: functions.php:169
+msgid "Categories: %1$s | Tags: %2$s | <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">Permalink</a>."
+msgstr "Catégories : %1$s | Mots-clés : %2$s | <a href=\"%3$s\" title=\"Permalien vers %4$s\" rel=\"bookmark\">Permalink</a>."
+
+#: functions.php:171
+msgid "Categories: %1$s | <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">Permalink</a>."
+msgstr "Catégories : %1$s | <a href=\"%3$s\" title=\"Permalien vers %4$s\" rel=\"bookmark\">Permalien</a>."
+
+#: functions.php:293
+msgid "%s"
+msgstr "%s"
+
+#. translators: used between list items, there is a space after the comma
+#: functions.php:153
+msgid ", "
+msgstr ", "
+
+#: functions.php:136
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Articles ultérieurs <span class=\"meta-nav\">&rarr;</span>"
+
+#: functions.php:126
+msgctxt "Previous post link"
+msgid "&larr; Previous Post"
+msgstr "&larr; Article précédent"
+
+#: functions.php:127
+msgctxt "Next post link"
+msgid "Next Post &rarr;"
+msgstr "Article suivant &rarr;"
+
+#: functions.php:132
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Articles Précédents"
+
+#: functions.php:65
+msgid "Sub Menu"
+msgstr "Sous menu"
+
+#: functions.php:96
+msgid "<a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\" pubdate>%4$s</time></a><span class=\"byline\"> by <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
+msgstr "<a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\" pubdate>%4$s</time></a><span class=\"byline\"> par <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
+
+#: functions.php:122
+msgid "Post navigation"
+msgstr "Navigation des articles"
+
+#: functions.php:64
+msgid "Primary Navigation"
+msgstr "Navigation principale"
+
+#: footer.php:11
+msgid "Top"
+msgstr "Haut"
+
+#: footer.php:10
+msgid "Theme: %1$s by %2$s."
+msgstr "Thème %1$s par %2$s."
+
+#: content-single.php:50
+msgid "Author: %s"
+msgstr "Auteur : %s"
+
+#: content-gallery.php:63
+msgid "This gallery contains <a %1$s>%2$s photo</a>."
+msgid_plural "This gallery contains <a %1$s>%2$s photos</a>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: content-gallery.php:63
+msgid "Permalink to %s"
+msgstr "Permalien vers %s"
+
+#: content-gallery.php:22 content-gallery.php:27 content-gallery.php:59
+msgid "View the pictures &rarr;"
+msgstr "Voir les images &rarr;"
+
+#: content-aside.php:35 content-gallery.php:73 content-image.php:26
+#: content-link.php:15 content-page.php:17 content-quote.php:35
+#: content-single.php:42 content-video.php:26 content.php:46 functions.php:295
+#: functions.php:316 image.php:98
+msgid "Edit"
+msgstr "Modifier"
+
+#: content-aside.php:30 content-gallery.php:68 content-image.php:21
+#: content-page.php:16 content-quote.php:30 content-single.php:36
+#: content-video.php:21 content.php:40 image.php:82
+msgid "Pages:"
+msgstr "Pages :"
+
+#: content-aside.php:29 content-image.php:20 content-link.php:10
+#: content-quote.php:29 content-single.php:34 content-video.php:20
+#: content.php:39 functions.php:247
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Lire la suite <span class=\"meta-nav\">&rarr;</span>"
+
+#: content-aside.php:23 content-gallery.php:15 content-image.php:15
+#: content-quote.php:23 content-single.php:24 content-video.php:15
+#: content.php:26 image.php:21
+msgid "% Comments"
+msgstr "% commentaires"
+
+#: content-aside.php:23 content-gallery.php:15 content-image.php:15
+#: content-quote.php:23 content-single.php:24 content-video.php:15
+#: content.php:26 image.php:21
+msgid "1 Comment"
+msgstr "1 commentaire"
+
+#: content-aside.php:12 content-quote.php:12 content.php:15
+msgid "<a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\" pubdate>%4$s</time></a><br/><span class=\"byline\"> by <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
+msgstr "<a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\" pubdate>%4$s</time></a><br/><span class=\"byline\"> par <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
+
+#: content-aside.php:18 content-quote.php:18 content.php:21 functions.php:102
+msgid "View all posts by %s"
+msgstr "Voir tous les articles par %s"
+
+#: comments.php:47
+msgid "Comments are closed."
+msgstr "Les commentaires sont fermés."
+
+#: comments.php:37
+msgid "Newer Comments &rarr;"
+msgstr "Commentaires ultérieurs &rarr;"
+
+#: comments.php:36
+msgid "&larr; Older Comments"
+msgstr "&larr; Commentaires antérieurs"
+
+#: comments.php:24
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Un avis sur « %2$s »"
+msgstr[1] "%1$s avis sur « %2$s »"
+
+#: comments.php:28 content-aside.php:23 content-gallery.php:15
+#: content-image.php:15 content-quote.php:23 content-single.php:24
+#: content-video.php:15 content.php:26 image.php:21
+msgid "Leave a comment"
+msgstr "Laisser un commentaire"
+
+#: comments.php:9
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr "Cet article est protégé par un mot de passe. Entrez le mot de passe pour lire les commentaires."
+
+#: category.php:14
+msgid "Category Archives: %s"
+msgstr "Archives de catégorie : %s"
+
+#: author.php:15
+msgid "Author Archives: <span class=\"vcard\">%s</span>"
+msgstr "Archives d’auteur : <span class=\"vcard\">%s</span>"
+
+#: archive.php:22
+msgid "Blog Archives"
+msgstr "Archives du blogue"
+
+#: archive.php:20
+msgid "Yearly Archives: <span>%s</span>"
+msgstr "Archives annuelles&nbsp;: <span>%s</span>"
+
+#: archive.php:18
+msgid "Monthly Archives: <span>%s</span>"
+msgstr "Archives mensuelles&nbsp;: <span>%s</span>"
+
+#: archive.php:16
+msgid "Daily Archives: <span>%s</span>"
+msgstr "Archives quotidiennes&nbsp;: <span>%s</span>"
+
+#: 404.php:17
+msgid "Apologies, but the page you requested could not be found. Perhaps searching will help."
+msgstr "Toutes nos excuses, mais la page que vous demandez est introuvable. Essayez de lancer une recherche."
+
+#: 404.php:13
+msgid "Not Found"
+msgstr "Inaccessible"
