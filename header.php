@@ -23,18 +23,18 @@
 		<?php global $yoko_options;
 		$yoko_settings = get_option( 'yoko_options', $yoko_options ); ?>
 
-		<hgroup id="site-title">
 		<?php if( $yoko_settings['custom_logo'] ) : ?>
-			<a href="<?php echo home_url( '/' ); ?>" class="logo"><img src="<?php echo $yoko_settings['custom_logo']; ?>" alt="<?php bloginfo('name'); ?>" /></a>
-		<?php else : ?>
+			<img src="<?php echo $yoko_settings['custom_logo']; ?>" class="header-logo" alt="KuB Berlin" /></a>
+		<?php endif ?>
+
+		<hgroup id="site-title">
 			<h1><a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>"><?php bloginfo( 'name' ); ?></a></h1>
-				<h2 id="site-description"><?php bloginfo( 'description' ); ?></h2>
-		<?php endif; ?>
+			<h2 id="site-description"><?php bloginfo( 'description' ); ?></h2>
 		</hgroup><!-- end site-title -->
 
-        <?php
-		// The header image
-		// Check if this is a post or page, if it has a thumbnail, and if it's a big one
+		<?php
+			// The header image
+			// Check if this is a post or page, if it has a thumbnail, and if it's a big one
 			if ( is_singular() &&
 				current_theme_supports( 'post-thumbnails' ) &&
 				has_post_thumbnail( $post->ID ) &&
@@ -44,17 +44,16 @@
 						echo get_the_post_thumbnail( $post->ID , array(1102,350), array('class' => 'headerimage'));
 						elseif ( get_header_image() ) : ?>
 						<img src="<?php header_image(); ?>" class="headerimage" width="<?php echo HEADER_IMAGE_WIDTH; ?>" height="<?php echo HEADER_IMAGE_HEIGHT; ?>" alt="" /><!-- end headerimage -->
-					<?php endif; ?>
+		<?php endif; ?>
 
 		<nav id="mainnav" class="clearfix">
 			<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
 		</nav><!-- end mainnav -->
-
 		<div class="clear"></div>
 
-		<nav id="subnav">
-			<?php
-			if (is_nav_menu( 'Sub Menu' ) ) {
-			wp_nav_menu( array('menu' => 'Sub Menu' ));} ?>
-		</nav><!-- end subnav -->
+		<?php if (is_nav_menu( 'Sub Menu' ) ) : ?>
+			<nav id="subnav">
+				<?php wp_nav_menu( array('menu' => 'Sub Menu' )) ?>
+			</nav>
+		<?php endif ?>
 </header><!-- end header -->

@@ -213,41 +213,49 @@ a:hover {
 }
 /* Header
 --------------------------------------------- */
+.header-logo {
+	position: absolute;
+	left: 2em;
+	top: 5.5em;
+	height: 3.5em;
+}
 #site-title {
-	padding: 21px 0 15px;
+	position: absolute;
+	left: 2em;
+	top: 9em;
+	padding: 0 0.5em;
+	background-color: #005e60;
+	color: #fff;
 }
 #site-title h1 {
-	margin: 0 10px 0 0;
-	font-size: 2.1em;
-	line-height:1.2;
-	font-weight: bold;
-	text-transform:uppercase;
-	display: block;
-	float: left;
+	font-size: 1.8em;
+	font-weight: normal;
+	line-height: 1.2;
+}
+#site-title a {
+	color: inherit;
 }
 #site-title a {
 	text-decoration: none;
 }
-#site-title h1 a:focus,
-#site-title h1 a:hover {
+#site-title a:hover,
+#site-title a:focus {
 	color: inherit;
 }
-#site-title h2 {
-	font:italic .9em 'Droid Serif',  Times, serif;
-	color: #777;
-	margin: 17px 0 0 0;
+header#branding {
+	position: relative;
+	background-color: #005e60;
 }
 header#branding img.headerimage {
 	width: 100%;
 	height: auto;
 	margin-top: 12px;
+	box-sizing: border-box;
+	border: 5px solid #f9f9f9;
 }
 header#branding img.attachment-headerimage.wp-post-image {
 	width: 100%;
 	height: auto;
-}
-hgroup#site-title img {
-	max-width: 100%;
 }
 
 /* Navigations
@@ -1243,12 +1251,15 @@ a.top {
 	width: 20%;
 }
 /* --- Header --- */
-#site-title h1 {
-	margin: 0 10px 3px 0;
-	float: none;
+#branding {
+	text-align: center;
 }
-#site-title h2 {
-	margin: 0;
+#site-title,
+.header-logo {
+	position: static;
+}
+#site-title {
+	padding: 10px 0 5px;
 }
 /* --- Sub Nav --- */
 nav#subnav ul.menu li.menu-item {
@@ -1313,14 +1324,6 @@ nav#subnav ul.menu li.menu-item ul.sub-menu li.menu-item {
 #tertiary {
 	width: 100%;
 	float: none;
-}
-/* --- Header --- */
-#site-title {
-	width: 100%;
-	padding: 20px 0 30px;
-}
-#site-title h1 a {
-	margin: 0 auto;
 }
 /* --- Main Nav --- */
 #branding #mainnav {
@@ -1391,20 +1394,6 @@ nav#subnav ul.menu li.menu-item ul.sub-menu li.menu-item a {
 }
 /* --- Smartphones and small Tablet PCs --- */
 @media screen and (max-width : 620px) {
-/* --- Header --- */
-#site-title {
-	float: left;
-	padding: 10px 0 5px;
-}
-#site-title h1 {
-	margin: 0;
-	text-align: center;
-	float: none;
-}
-#site-title h2 {
-	margin: 0;
-	text-align: center;
-}
 /* --- Main Nav --- */
 #branding #mainnav {
 	margin: 15px 0 0;
