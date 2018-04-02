@@ -90,16 +90,17 @@ body {
 #page {
 	max-width: 1102px;
 	margin: 12px auto;
-	padding:0 30px 30px;
-	background-color:#fff;
+	padding: 10px;
 	z-index: 0;
 }
 #wrap {
 	margin:4px 0 0;
-	padding:40px 0;
+	padding:40px 20px;
 	overflow: hidden;
-	border-top: 1px solid #ddd;
 	border-bottom: 1px solid #ddd;
+
+	background-color: #fff;
+	box-sizing: border-box;
 }
 #main {
 	width: 74.59%;
@@ -1179,11 +1180,16 @@ aside.widget ul li:last-child {
 --------------------------------------------- */
 #colophon p {
 	line-height: 1.5;
+	color: #fff;
+}
+#colophon a {
+	color: #fff;
 }
 a.top {
 	margin: 3px 0 0 0;
 	font-weight: bold;
 	display: block;
+	color: #fff;
 }
 
 /* Clearing Floats
@@ -1213,13 +1219,10 @@ a.top {
 /* --- General --- */
 #page {
 	margin: 0 auto;
-	padding: 0 30px 30px;
-	background-color:#fff;
 	z-index: 0;
 }
 #wrap {
 	margin: 4px 0 0;
-	padding: 45px 0 0 0;
 	overflow: hidden;
 }
 #main {
@@ -1299,10 +1302,6 @@ nav#subnav ul.menu li.menu-item ul.sub-menu li.menu-item {
 
 /* --- iPad Portrait --- */
 @media screen and (max-width: 880px) {
-#page {
-	padding: 0 50px 30px 50px;
-	background-color:#fff;
-}
 #wrap {
 	margin-top: 0;
 }
@@ -1399,10 +1398,6 @@ nav#subnav ul.menu li.menu-item ul.sub-menu li.menu-item a {
 }
 /* --- Smartphones and small Tablet PCs --- */
 @media screen and (max-width : 620px) {
-#page {
-	padding: 0 20px 20px;
-	background-color:#fff;
-}
 /* --- Header --- */
 #site-title {
 	float: left;
