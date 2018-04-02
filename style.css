@@ -122,9 +122,7 @@ body {
 	overflow: hidden;
 }
 #colophon {
-	width: 70%;
-	float: left;
-	padding:30px 0 0;
+	padding:10px 0;
 	overflow: hidden;
 	font-size: 0.8em;
 }
@@ -1182,6 +1180,7 @@ aside.widget ul li:last-child {
 #colophon p {
 	line-height: 1.5;
 	color: #fff;
+	float: right;
 }
 #colophon a {
 	color: #fff;

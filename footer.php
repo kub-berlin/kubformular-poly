@@ -8,7 +8,13 @@
 </div><!-- end wrap -->
 
 	<footer id="colophon" class="clearfix">
-		<p>Proudly powered by <a href="http://wordpress.org/">WordPress</a><span class="sep"> | </span><?php printf( __( 'Theme: %1$s by %2$s', 'yoko' ), 'Yoko', '<a href="http://www.elmastudio.de/en/themes/">Elmastudio</a>' ); ?></p>
+		<p>
+			Proudly powered by <a href="http://wordpress.org/">WordPress</a>
+			<span class="sep"> | </span>
+			<?php printf( __( 'Theme: %1$s by %2$s', 'yoko' ), 'Yoko', '<a href="http://www.elmastudio.de/en/themes/">Elmastudio</a>' ); ?>
+			<span class="sep"> | </span>
+			Webdesign von <a href="http://www.claudia-klinger.de/webwork/">Claudia Klinger</a>
+		</p>
 		<a href="#page" class="top"><?php _e( 'Top', 'yoko' ); ?></a>
 	</footer><!-- end colophon -->
 
