@@ -1642,3 +1642,16 @@ a#cancel-comment-reply-link {
 	background-size: 16px 271px;
 }
 }
+
+#polylang-2 li {
+	display: inline;
+	list-style: none;
+	font-size: 3em;
+	font-weight: bold;
+}
+#polylang-2 li + li:before {
+	content: "· ";
+}
+#polylang-2 a {
+	text-decoration: none;
+}
