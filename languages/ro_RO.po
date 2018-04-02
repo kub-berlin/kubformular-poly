@@ -1,39 +1,39 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
+"Project-Id-Version: Yoko\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team: \n"
+"Last-Translator: Anda Pop <johnnys_pooh@yahoo.com>\n"
+"Language-Team: Wolforg <contact@wolforg.eu>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Poedit-Language: \n"
-"X-Poedit-Country: \n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
 "X-Poedit-SourceCharset: utf-8\n"
-"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
-"X-Poedit-Basepath: \n"
-"X-Poedit-Bookmarks: \n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: .\n"
+"X-Textdomain-Support: yes\n"
 "X-Poedit-SearchPath-0: .\n"
-"X-Textdomain-Support: yes"
 
+#@ yoko
 #: 404.php:16
-#@ yoko
 msgid "Not Found"
-msgstr "Nichts gefunden"
+msgstr "Negăsit"
 
+#@ yoko
 #: 404.php:20
-#@ yoko
 msgid "Apologies, but the page you requested could not be found. Perhaps searching will help."
-msgstr "Entschuldigung, aber die Seite konnte leider nicht gefunden werden."
+msgstr "Scuze, dar pagina cerută nu poate fi găsită. Poate căutarea va fi de folos."
 
-#: archive.php:24
 #@ yoko
+#: archive.php:24
 msgid "Blog Archives"
-msgstr "Blog Archiv"
+msgstr "Arhivele blogului"
 
+#@ yoko
 #: content-aside.php:18
 #: content-gallery.php:53
 #: content-image.php:17
@@ -43,44 +43,44 @@ msgstr "Blog Archiv"
 #: content-video.php:17
 #: content.php:28
 #: image.php:68
-#@ yoko
 msgid "Pages:"
-msgstr "Seiten:"
+msgstr "Pagini:"
 
+#@ yoko
 #: category.php:14
 #, php-format
-#@ yoko
 msgid "Category Archives: %s"
-msgstr "Artikel der Kategorie: %s"
+msgstr "Arhive pentru categoria: %s"
 
-#: comments.php:10
 #@ yoko
+#: comments.php:10
 msgid "This post is password protected. Enter the password to view any comments."
-msgstr "Dieser Artikel ist Passwort geschützt. Trage das Passwort ein, um die Kommentare zu sehen."
+msgstr "Această postare e protejată cu parolă. Introdu parola pentru a vedea comentarile."
 
+#@ yoko
 #: comments.php:32
 #: comments.php:43
-#@ yoko
 msgid "Comment navigation"
-msgstr "Navigation der Kommentare"
+msgstr "Navigare între comentarii"
 
+#@ yoko
 #: comments.php:33
 #: comments.php:44
-#@ yoko
 msgid "&larr; Older Comments"
-msgstr "&larr; Ältere Kommentare"
+msgstr "&larr; Comentarii mai vechi"
 
+#@ yoko
 #: comments.php:34
 #: comments.php:45
-#@ yoko
 msgid "Newer Comments &rarr;"
-msgstr "Neuere Kommentare &rarr;"
+msgstr "Comentarii mai noi &rarr;"
 
-#: comments.php:68
 #@ yoko
+#: comments.php:68
 msgid "<p class=\"comment-notes\">Required fields are marked <span class=\"required\">*</span>.</p>"
-msgstr "<p class=\"comment-notes\">Pflichtfelder sind mit <span class=\"required\">*</span> markiert.</p>"
+msgstr "<p class=\"comment-notes\">Câmpurile obligatorii sunt marcate cu <span class=\"required\">*</span>.</p>"
 
+#@ yoko
 #: content-aside.php:12
 #: content-gallery.php:13
 #: content-image.php:13
@@ -89,20 +89,20 @@ msgstr "<p class=\"comment-notes\">Pflichtfelder sind mit <span class=\"required
 #: content-video.php:13
 #: content.php:15
 #: image.php:18
-#@ yoko
 msgid "by"
-msgstr "von"
+msgstr "de"
 
+#@ yoko
 #: content-image.php:16
 #: content-link.php:11
 #: content-quote.php:17
 #: content-single.php:25
 #: content-video.php:16
 #: content.php:27
-#@ yoko
 msgid "Continue Reading &rarr;"
-msgstr "Weiterlesen &rarr;"
+msgstr "Continuă citirea &rarr;"
 
+#@ yoko
 #: content-aside.php:22
 #: content-gallery.php:57
 #: content-image.php:21
@@ -112,10 +112,10 @@ msgstr "Weiterlesen &rarr;"
 #: content-video.php:21
 #: content.php:33
 #, php-format
-#@ yoko
 msgid "Categories: %2$s"
-msgstr "Kategorien: %2$s"
+msgstr "Categorii: %2$s"
 
+#@ yoko
 #: content-aside.php:29
 #: content-gallery.php:64
 #: content-image.php:28
@@ -127,375 +127,375 @@ msgstr "Kategorien: %2$s"
 #: content.php:40
 #: functions.php:227
 #: image.php:83
-#@ yoko
 msgid "Edit &rarr;"
-msgstr "Bearbeiten &rarr;"
+msgstr "Editează &rarr;"
 
+#@ yoko
 #: content-gallery.php:12
 #: content-gallery.php:46
 #: content-image.php:12
 #: content-video.php:12
 #: content.php:20
 #, php-format
-#@ yoko
 msgid "Permalink to %s"
-msgstr "Permalink zu %s"
+msgstr "Legătură permanentă pentru %s"
 
-#: functions.php:52
 #@ yoko
+#: functions.php:52
 msgid "Primary Navigation"
-msgstr "Hauptnavigation"
+msgstr "Navigare primară"
 
+#@ yoko
 #: header.php:22
 #, php-format
-#@ yoko
 msgid "Page %s"
-msgstr "Seite %s"
+msgstr "Pagină %s"
 
+#@ yoko
 #: content-aside.php:17
 #: functions.php:171
-#@ yoko
 msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
-msgstr "Weiterlesen <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Continuă citirea <span class=\"meta-nav\">&rarr;</span>"
 
+#@ yoko
 #. translators: 1: date, 2: time
 #: functions.php:227
 #, php-format
-#@ yoko
 msgid "%1$s at %2$s"
-msgstr "%1$s um %2$s Uhr"
+msgstr "%1$s la %2$s"
 
+#@ yoko
 #: functions.php:223
 #, php-format
-#@ yoko
 msgid "%s"
 msgstr "%s"
 
+#@ yoko
 #: functions.php:234
-#@ yoko
 msgid "Your comment is awaiting moderation."
-msgstr "Dein Kommentar befindet sich in Moderation."
+msgstr "Comentariul tău așteaptă moderarea."
 
-#: functions.php:252
 #@ yoko
+#: functions.php:252
 msgid "Pingback:"
 msgstr "Pingback:"
 
+#@ yoko
 #: functions.php:252
-#@ yoko
 msgid "(Edit)"
-msgstr "(Bearbeiten)"
+msgstr "(Editează)"
 
+#@ yoko
 #: functions.php:264
-#@ yoko
 msgid "Sidebar 1"
-msgstr "Sidebar 1"
+msgstr "Bara laterală 1"
 
+#@ yoko
 #: functions.php:273
-#@ yoko
 msgid "Sidebar 2"
-msgstr "Sidebar 2"
+msgstr "Bara laterală 2"
 
+#@ yoko
 #: functions.php:275
-#@ yoko
 msgid "An second sidebar area"
-msgstr "Ein zweiter Sidebar-Bereich"
+msgstr "O a doua zonă pentru bară laterală"
 
-#: functions.php:319
 #@ yoko
+#: functions.php:319
 msgid "Search"
-msgstr "Suche"
+msgstr "Căutare"
 
+#@ yoko
 #: search.php:16
 #, php-format
-#@ yoko
 msgid "Search Results for: %s"
-msgstr "Suchergebnisse für: %s"
+msgstr "Rezultate pentru căutarea: %s"
 
+#@ yoko
 #: search.php:38
-#@ yoko
 msgid "Nothing Found"
-msgstr "Keine Einträge gefunden"
+msgstr "Nu a fost găsit nimic"
 
+#@ yoko
 #: search.php:42
-#@ yoko
 msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
-msgstr "Entschuldigung, leider wurde zu deiner Suchanfrage kein Eintrag gefunden. Bitte versuche es noch einmal mit anderen Schlagwörtern."
+msgstr "Îmi pare rău dar nimic nu se potrivește criteriilor de căutare. Te rog reîcearcă folosind alte cuvinte."
 
+#@ yoko
 #: sidebar.php:18
-#@ yoko
 msgid "Archives"
-msgstr "Archiv"
+msgstr "Arhive"
 
-#: single.php:23
 #@ yoko
+#: single.php:23
 msgctxt "Previous post link"
 msgid "&larr;  Previous Post"
-msgstr "&larr;  Vorheriger Artikel"
+msgstr "&larr;  Postarea precedentă"
 
-#: single.php:24
 #@ yoko
+#: single.php:24
 msgctxt "Next post link"
 msgid "Next Post &rarr;"
-msgstr "Nächster Artikel &rarr;"
+msgstr "Postarea următoare &rarr;"
 
+#@ yoko
 #: tag.php:18
 #, php-format
-#@ yoko
 msgid "Tag Archives: %s"
-msgstr "Artikel zum Schlagwort:  %s"
+msgstr "Arhive pentru eticheta:  %s"
 
+#@ yoko
 #: archive.php:18
 #, php-format
-#@ yoko
 msgid "Daily Archives: <span>%s</span>"
-msgstr "Artikel am: <span>%s</span>"
+msgstr "Arhive zilnice: <span>%s</span>"
 
+#@ yoko
 #: archive.php:20
 #, php-format
-#@ yoko
 msgid "Monthly Archives: <span>%s</span>"
-msgstr "Artikel im: <span>%s</span>"
+msgstr "Arhive lunare: <span>%s</span>"
 
+#@ yoko
 #: archive.php:22
 #, php-format
-#@ yoko
 msgid "Yearly Archives: <span>%s</span>"
-msgstr "Artikel des Jahres: <span>%s</span>"
+msgstr "Arhive anuale: <span>%s</span>"
 
+#@ yoko
 #: author.php:16
 #, php-format
-#@ yoko
 msgid "Author Archives: <span class=\"vcard\">%s</span>"
-msgstr "Alle Artikel von: <span class=\"vcard\">%s</span>"
+msgstr "Arhive pentru autorul: <span class=\"vcard\">%s</span>"
 
+#@ yoko
 #: comments.php:26
 #, php-format
-#@ yoko
 msgid "One Comment"
 msgid_plural "%1$s Comments"
-msgstr[0] "Ein Kommentar"
-msgstr[1] "%1$s Kommentare"
+msgstr[0] "Un comentariu"
+msgstr[1] "%1$s Comentarii"
 
+#@ yoko
 #: image.php:75
 #, php-format
-#@ yoko
 msgid "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
-msgstr "<a class=\"comment-link\" href=\"#respond\" title=\"Schreibe einen Kommentar\">Schreibe einen Kommentar</a> oder hinterlasse einen Trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL für deinen Artikel\" rel=\"trackback\">Trackback URL</a>."
+msgstr "<a class=\"comment-link\" href=\"#respond\" title=\"Postează un comentariu\">Postează un comentariu</a> sau lasă o referință de urmărire: <a class=\"trackback-link\" href=\"%s\" title=\"URL-ul referinței de urmărire\" rel=\"trackback\">URL referinței de urmărire</a>."
 
+#@ yoko
 #: image.php:77
 #, php-format
-#@ yoko
 msgid "Comments are closed, but you can leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
-msgstr "Kommentare sind geschlossen, aber du kannst ein Trackback hinterlassen: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "Comentariile sunt închise, dar puteți lăsa o referință de urmărire: <a class=\"trackback-link\" href=\"%s\" title=\"URL-ul referinței de urmărire\" rel=\"trackback\">URL-ul referinței de urmărire</a>."
 
+#@ yoko
 #: image.php:79
-#@ yoko
 msgid "Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">post a comment</a>."
-msgstr "Trackbacks sind geschlossen, aber du kannst ein <a class=\"comment-link\" href=\"#respond\" title=\"Kommentar schreiben\">Kommentar schreiben</a>."
+msgstr "Referințele de urmărire sunt închise, dar puteți să <a class=\"comment-link\" href=\"#respond\" title=\"postați un comentariu\">postați un comentariu</a>."
 
+#@ yoko
 #: image.php:81
-#@ yoko
 msgid "Both comments and trackbacks are currently closed."
-msgstr "Kommentare und Trackbacks sind derzeit geschlossen."
+msgstr "Comentariile și referințele de urmărire sunt închise."
 
-#: functions.php:534
 #@ yoko
+#: functions.php:432
 msgid "Title:"
-msgstr "Titel:"
+msgstr "Titlu:"
 
-#: functions.php:536
 #@ yoko
+#: functions.php:434
 msgid "RSS Text:"
-msgstr "RSS Text:"
+msgstr "Text RSS:"
 
-#: functions.php:538
 #@ yoko
+#: functions.php:436
 msgid "RSS  URL:"
-msgstr "RSS  URL:"
+msgstr "URL RSS:"
 
-#: functions.php:540
 #@ yoko
+#: functions.php:438
 msgid "Twitter Text:"
-msgstr "Twitter Text:"
+msgstr "Text Twitter:"
 
-#: functions.php:541
 #@ yoko
+#: functions.php:439
 msgid "Twitter  URL:"
-msgstr "Twitter  URL:"
+msgstr "URL Twitter:"
 
-#: functions.php:542
 #@ yoko
+#: functions.php:440
 msgid "Facebook Text:"
-msgstr "Facebook Text:"
+msgstr "Text Facebook:"
 
-#: functions.php:543
 #@ yoko
+#: functions.php:441
 msgid "Facebook URL:"
-msgstr "Facebook URL:"
+msgstr "URL Facebook:"
 
-#: functions.php:544
 #@ yoko
+#: functions.php:442
 msgid "Flickr Text:"
-msgstr "Flickr Text:"
+msgstr "Text Flickr:"
 
-#: functions.php:545
 #@ yoko
+#: functions.php:443
 msgid "Flickr URL:"
-msgstr "Flickr URL:"
+msgstr "URL Flickr:"
 
-#: functions.php:548
 #@ yoko
+#: functions.php:446
 msgid "LinkedIn Text:"
-msgstr "LinkedIn Text:"
+msgstr "Text LinkedIn:"
 
-#: functions.php:549
 #@ yoko
+#: functions.php:447
 msgid "LinkedIn URL:"
-msgstr "LinkedIn URL:"
+msgstr "URL LinkedIn:"
 
-#: functions.php:550
 #@ yoko
+#: functions.php:448
 msgid "Delicious Text:"
-msgstr "Delicious Text:"
+msgstr "Text Delicious:"
 
-#: functions.php:551
 #@ yoko
+#: functions.php:449
 msgid "Delicious URL:"
-msgstr "Delicious URL:"
+msgstr "URL Delicious:"
 
+#@ yoko
 #: content-gallery.php:19
 #: content-gallery.php:24
 #: content-gallery.php:42
-#@ yoko
 msgid "View the pictures &rarr;"
-msgstr "Alle Bilder anschauen &rarr;"
+msgstr "Vezi imaginile &rarr;"
 
+#@ yoko
 #: archive.php:41
 #: author.php:31
 #: category.php:28
 #: index.php:22
 #: search.php:29
 #: tag.php:34
-#@ yoko
 msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
-msgstr "<span class=\"meta-nav\">&larr;</span> Ältere Artikel"
+msgstr "<span class=\"meta-nav\">&larr;</span> Postări  mai vechi"
 
+#@ yoko
 #: archive.php:42
 #: author.php:32
 #: category.php:29
 #: index.php:23
 #: search.php:30
 #: tag.php:35
-#@ yoko
 msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
-msgstr "Neuere Artikel <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Postări mai recente <span class=\"meta-nav\">&rarr;</span>"
 
+#@ yoko
 #: content-gallery.php:45
 #, php-format
-#@ yoko
 msgid "This gallery contains <a %1$s>%2$s photo</a>."
 msgid_plural "This gallery contains <a %1$s>%2$s photos</a>"
-msgstr[0] "Diese Galerie enthält <a %1$s>%2$s Bilder</a>."
-msgstr[1] "Diese Galerie enthält <a %1$s>%2$s Bilder</a>"
+msgstr[0] "Această galerie conține <a %1$s>%2$s imagine</a>."
+msgstr[1] "Această galerie conține <a %1$s>%2$s imagini</a>"
 
+#@ yoko
 #: content-single.php:47
 #, php-format
-#@ yoko
 msgid "Author: %s"
 msgstr "Autor: %s"
 
+#@ yoko
 #: footer.php:11
 #, php-format
-#@ yoko
 msgid "Theme: %1$s by %2$s"
-msgstr "Theme: %1$s von %2$s"
+msgstr "Temă: %1$s de %2$s"
 
+#@ yoko
 #: footer.php:12
-#@ yoko
 msgid "Top"
-msgstr "Top"
+msgstr "Sus"
 
-#: functions.php:546
 #@ yoko
+#: functions.php:444
 msgid "Vimeo Text:"
-msgstr "Vimeo Text:"
+msgstr "Text Vimeo:"
 
-#: functions.php:547
 #@ yoko
+#: functions.php:445
 msgid "Vimeo URL:"
-msgstr "Vimeo URL:"
+msgstr "URL Vimeo:"
 
+#@ yoko
 #: sidebar.php:13
-#@ yoko
 msgid "Categories"
-msgstr "Kategorien"
+msgstr "Categorii"
 
+#@ yoko
 #: sidebar.php:36
-#@ yoko
 msgid "Recent Posts"
-msgstr "Neuste Artikel"
+msgstr "Postări recente"
 
+#@ yoko
 #: sidebar.php:43
-#@ yoko
 msgid "Calendar"
-msgstr "Kalender"
+msgstr "Calendar"
 
+#@ yoko
 #: sidebar.php:48
-#@ yoko
 msgid "Links"
-msgstr "Links"
+msgstr "Linkuri"
 
-#: includes/theme-options.php:51
 #@ yoko
+#: themeoptions/theme-options.php:51
 msgid " Theme Options"
-msgstr "Theme Optionen"
+msgstr " Opțiunile Temei"
 
-#: includes/theme-options.php:55
 #@ yoko
+#: themeoptions/theme-options.php:55
 msgid "Options saved"
-msgstr "Optionen gespeichert"
+msgstr "Opțiuni salvate"
 
-#: includes/theme-options.php:69
 #@ yoko
+#: themeoptions/theme-options.php:69
 msgid "Custom Link Color"
-msgstr "Individuelle Linkfarbe"
+msgstr "Culorea aleasă pentru link"
 
-#: includes/theme-options.php:71
 #@ default
+#: themeoptions/theme-options.php:71
 msgid "custom_color"
-msgstr ""
+msgstr "culoare_personalizată"
 
-#: includes/theme-options.php:76
 #@ yoko
+#: themeoptions/theme-options.php:76
 msgid "e.g. #0000FF or blue (default link color: #009BC2)"
-msgstr "z.B. #0000FF oder blue (Standard-Linkfarbe: #009BC2)"
+msgstr "ex.: #0000FF pentru albastru (culoarea implicită este: #009BC2)"
 
-#: includes/theme-options.php:80
 #@ yoko
+#: themeoptions/theme-options.php:80
 msgid "Custom Logo Image URL"
-msgstr "URL deines Logos"
+msgstr "URL-ul imaginii pentru Logo"
 
-#: includes/theme-options.php:82
 #@ default
+#: themeoptions/theme-options.php:82
 msgid "custom_logo"
-msgstr ""
+msgstr "logo_personalizat"
 
-#: includes/theme-options.php:83
 #@ yoko
+#: themeoptions/theme-options.php:83
 msgid "Upload your own logo image"
-msgstr "Lade dein eigenes Logobild hoch"
+msgstr "Încarcă imaginea logo-ului tău"
 
-#: includes/theme-options.php:83
 #@ yoko
+#: themeoptions/theme-options.php:83
 msgid " using the WordPress Media Library and insert the URL here"
-msgstr "nutze die WordPress Mediathek und füge deine Logobild-URL hier ein"
+msgstr "folosind Biblioteca Media a Wordpress și inserează aici URL-ul ei"
 
-#: includes/theme-options.php:89
 #@ yoko
+#: themeoptions/theme-options.php:90
 msgid "Save Options"
-msgstr "Optionen speichern"
+msgstr "Salvează Opțiuni"
 
+#@ yoko
 #: content-aside.php:13
 #: content-gallery.php:14
 #: content-image.php:13
@@ -504,10 +504,10 @@ msgstr "Optionen speichern"
 #: content-video.php:13
 #: content.php:16
 #: image.php:18
-#@ yoko
 msgid "0 comments"
-msgstr "Keine Kommentare"
+msgstr "0 Comentarii"
 
+#@ yoko
 #: content-aside.php:13
 #: content-gallery.php:14
 #: content-image.php:13
@@ -516,10 +516,10 @@ msgstr "Keine Kommentare"
 #: content-video.php:13
 #: content.php:16
 #: image.php:18
-#@ yoko
 msgid "1 Comment"
-msgstr "1 Kommentar"
+msgstr "1 Comentariu"
 
+#@ yoko
 #: content-aside.php:13
 #: content-gallery.php:14
 #: content-image.php:13
@@ -528,82 +528,82 @@ msgstr "1 Kommentar"
 #: content-video.php:13
 #: content.php:16
 #: image.php:18
-#@ yoko
 msgid "% Comments"
-msgstr "% Kommentare"
+msgstr "% Comentarii"
 
+#@ yoko
 #: comments.php:29
-#@ yoko
 msgid "Leave a reply &rarr;"
-msgstr "Schreibe einen Kommentar &rarr;"
+msgstr "Răspunde &rarr;"
 
-#: comments.php:70
 #@ yoko
+#: comments.php:70
 msgctxt "noun"
 msgid "Message <span class=\"required\">*</span>"
-msgstr "Nachricht <span class=\"required\">*</span>"
+msgstr "Mesaj <span class=\"required\">*</span>"
 
+#@ yoko
 #. translators: header image description
 #: functions.php:91
-#@ yoko
 msgid "Ginko"
-msgstr ""
+msgstr "Ginseng"
 
+#@ yoko
 #. translators: header image description
 #: functions.php:97
-#@ yoko
 msgid "Flowers"
-msgstr ""
+msgstr "Flori"
 
+#@ yoko
 #. translators: header image description
 #: functions.php:103
-#@ yoko
 msgid "Plant"
-msgstr ""
+msgstr "Plante"
 
+#@ yoko
 #. translators: header image description
 #: functions.php:109
-#@ yoko
 msgid "Sailing"
-msgstr ""
+msgstr "Marină"
 
+#@ yoko
 #. translators: header image description
 #: functions.php:115
-#@ yoko
 msgid "Cape"
-msgstr ""
+msgstr "Coastă"
 
+#@ yoko
 #. translators: header image description
 #: functions.php:121
-#@ yoko
 msgid "Seagull"
-msgstr ""
+msgstr "Pescăruș"
 
+#@ yoko
 #: image.php:22
-#@ yoko
 msgid "&larr; Previous Image"
-msgstr "&larr; Vorheriges Bild"
+msgstr "&larr; Imaginea precedentă"
 
+#@ yoko
 #: image.php:23
-#@ yoko
 msgid "Next Image &rarr;"
-msgstr "Nächstes Bild &rarr;"
+msgstr "Imaginea următoare &rarr;"
 
-#: includes/theme-options.php:37
 #@ yoko
+#: themeoptions/theme-options.php:37
 msgid "Theme Options"
-msgstr "Theme Optionen"
+msgstr "Opțiunile temei"
 
-#: functions.php:442
 #@ yoko
+#: functions.php:340
 msgid "Link to your social profiles like twitter, facebook or flickr."
-msgstr "Linke auf deine Online-Profile wie Twitter, Facebook oder Flickr."
+msgstr "Linkuri către rețele sociale ca twitter, facebook sau flickr."
 
-#: comments.php:61
 #@ yoko
+#: comments.php:61
 msgid "Comments are closed."
-msgstr "Kommentare sind deaktiviert."
+msgstr "Comentariile sunt închise."
 
+#@ yoko
 #: content-aside.php:26
 #: content-gallery.php:61
 #: content-image.php:25
@@ -613,10 +613,10 @@ msgstr "Kommentare sind deaktiviert."
 #: content-video.php:25
 #: content.php:37
 #, php-format
-#@ yoko
 msgid "Tags: %2$s"
-msgstr "Schlagwörter: %2$s"
+msgstr "Etichete: %2$s"
 
+#@ yoko
 #: content-aside.php:28
 #: content-gallery.php:63
 #: content-image.php:27
@@ -625,12 +625,11 @@ msgstr "Schlagwörter: %2$s"
 #: content-single.php:39
 #: content-video.php:27
 #: content.php:39
-#@ yoko
 msgid "Permalink "
-msgstr "Permalink"
+msgstr "Legătură permanentă"
 
-#: includes/theme-options.php:73
 #@ yoko
+#: themeoptions/theme-options.php:73
 msgid "Select a Color"
-msgstr "Wähle eine Farbe"
+msgstr "Selectează o culoare"
 

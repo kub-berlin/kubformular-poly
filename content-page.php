@@ -1,6 +1,7 @@
 <?php
 /**
- * @package Yoko
+ * @package WordPress
+ * @subpackage Yoko
  */
 ?>
 
@@ -14,7 +15,7 @@
 		<?php the_content(); ?>
 		<div class="clear"></div>
 		<?php wp_link_pages( array( 'before' => '<div class="page-link">' . __( 'Pages:', 'yoko' ), 'after' => '</div>' ) ); ?>
-		<?php edit_post_link( __( 'Edit', 'yoko' ), '<span class="edit-link">', '</span>' ); ?>
+		<?php edit_post_link( __( 'Edit &rarr;', 'yoko' ), '<span class="edit-link">', '</span>' ); ?>
 	</div><!--end entry-content-->
 
-</article>
+</article><!-- end post-<?php the_ID(); ?> -->

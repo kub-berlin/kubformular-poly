@@ -1,13 +1,15 @@
 <?php
 /**
- * @package Yoko
+ * @package WordPress
+ * @subpackage Yoko
  */
 
 get_header(); ?>
 
 <div id="wrap">
-<div id="main" <?php yoko_sidebar_class(); ?>>
-	<div id="content" class="site-content">
+<div id="main">
+
+	<div id="content">
 		<article id="page">
 			<header class="page-entry-header">
 				<h1 class="entry-title"><?php _e( 'Not Found', 'yoko' ); ?></h1>
@@ -19,8 +21,8 @@ get_header(); ?>
 			</div>
 
 			<script type="text/javascript">
-			// focus on search field after it has loaded
-			document.getElementById('s') && document.getElementById('s').focus();
+				// focus on search field after it has loaded
+				document.getElementById('s') && document.getElementById('s').focus();
 			</script>
 		</article>
 	</div><!-- end content -->

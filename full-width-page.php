@@ -11,10 +11,13 @@ get_header(); ?>
 
 <div id="wrap">
 
-	<div id="content" class="site-content full-width">
-		<?php the_post(); ?>
-		<?php get_template_part( 'content', 'page' ); ?>
-		<?php comments_template( '', true ); ?>
-	</div><!-- end content -->
+			<div id="content" class="full-width">
+
+				<?php the_post(); ?>
+				<?php get_template_part( 'content', 'page' ); ?>
+
+				<?php comments_template( '', true ); ?>
+
+			</div><!-- end content -->
 
 <?php get_footer(); ?>

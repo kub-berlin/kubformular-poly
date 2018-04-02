@@ -1,26 +1,28 @@
 <?php
 /**
- * @package Yoko
+ * @package WordPress
+ * @subpackage Yoko
  */
-
-// Change content_width
-$content_width = 820;
 
 get_header(); ?>
 
 <div id="wrap">
-<div id="main" <?php yoko_sidebar_class(); ?>>
+<div id="main">
 
-	<div id="content" class="site-content">
+	<div id="content">
 
-		<?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
+	<?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 
 			<?php get_template_part( 'content', 'single' ); ?>
+
 			<?php comments_template( '', true ); ?>
 
-		<?php endwhile; ?>
+			<?php endwhile; // end of the loop. ?>
 
-		<?php yoko_content_nav( 'nav-below' ); ?>
+			<nav id="nav-below">
+				<div class="nav-previous"><?php next_post_link( '%link', __( '&larr; Previous Post', 'yoko' ) ); ?></div>
+				<div class="nav-next"><?php previous_post_link( '%link', __( 'Next Post  &rarr;', 'yoko' ) ); ?></div>
+			</nav><!-- end #nav-below -->
 
 	</div><!-- end content -->
 

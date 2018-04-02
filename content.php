@@ -1,6 +1,7 @@
 <?php
 /**
- * @package Yoko
+ * @package WordPress
+ * @subpackage Yoko
  */
 ?>
 
@@ -8,44 +9,36 @@
 
 	<div class="entry-details">
 		<?php if ( has_post_thumbnail() ): ?>
-			<a href="<?php the_permalink(); ?>"><?php the_post_thumbnail( 'thumbnail' ); ?></a>
+		<a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('thumbnail'); ?></a>
 		<?php endif; ?>
-		<p>
-			<?php
-			printf( __( '<a href="%1$s" title="%2$s" rel="bookmark"><time class="entry-date" datetime="%3$s" pubdate>%4$s</time></a><br/><span class="byline"> by <span class="author vcard"><a class="url fn n" href="%5$s" title="%6$s" rel="author">%7$s</a></span></span>', 'yoko' ),
-				esc_url( get_permalink() ),
-				esc_attr( get_the_time() ),
-				esc_attr( get_the_date( 'c' ) ),
-				esc_html( get_the_date() ),
-				esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ),
-				esc_attr( sprintf( __( 'View all posts by %s', 'yoko' ), get_the_author() ) ),
-				esc_html( get_the_author() )
-			);
-			?>
-			<?php if ( ! post_password_required() && ( comments_open() || '0' != get_comments_number() ) ) : ?>
-				<?php comments_popup_link( __( 'Leave a comment', 'yoko' ), __( '1 Comment', 'yoko' ), __( '% Comments', 'yoko' ) ); ?>
-			<?php endif; ?>
-		</p>
+		<p><?php echo get_the_date(); ?><br/>
+		<?php _e( 'by', 'yoko' ); ?> <?php the_author() ?><br/>
+		<?php comments_popup_link( __( '0 comments', 'yoko' ), __( '1 Comment', 'yoko' ), __( '% Comments', 'yoko' ) ); ?></p>
 	</div><!-- end entry-details -->
 
 	<header class="entry-header">
-		<h2 class="entry-title"><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h2>
-	</header>
+			<h2 class="entry-title"><a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', 'yoko' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark"><?php the_title(); ?></a></h2>
+	</header><!-- end entry-header -->
 
 	<div class="entry-content">
-		<?php if ( is_search() ) : // Only display excerpts for search. ?>
+		<?php if ( is_archive() || is_search() ) : // Only display excerpts for archives and search. ?>
 			<?php the_excerpt(); ?>
 		<?php else : ?>
-			<?php the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'yoko' ) ); ?>
+			<?php the_content( __( 'Continue Reading &rarr;', 'yoko' ) ); ?>
 			<?php wp_link_pages( array( 'before' => '<div class="page-link">' . __( 'Pages:', 'yoko' ), 'after' => '</div>' ) ); ?>
 		<?php endif; ?>
 
 		<footer class="entry-meta">
-			<p>
-				<?php yoko_entry_meta(); ?>
-				<?php edit_post_link( __( 'Edit', 'yoko' ), '| <span class="edit-link">', '</span>' ); ?>
-			</p>
-		</footer><!-- end entry-meta -->
+			<p><?php if ( count( get_the_category() ) ) : ?>
+			<?php printf( __( 'Categories: %2$s', 'yoko' ), 'entry-utility-prep entry-utility-prep-cat-links', get_the_category_list( ', ' ) ); ?> |
+			<?php endif; ?>
+			<?php $tags_list = get_the_tag_list( '', ', ' );
+			if ( $tags_list ): ?>
+			<?php printf( __( 'Tags: %2$s', 'yoko' ), 'entry-utility-prep entry-utility-prep-tag-links', $tags_list ); ?> |
+			<?php endif; ?>
+			<a href="<?php echo get_permalink(); ?>"><?php _e( 'Permalink ', 'yoko' ); ?></a>
+			<?php edit_post_link( __( 'Edit &rarr;', 'yoko' ), '| <span class="edit-link">', '</span>' ); ?></p>
+	</footer><!-- end entry-meta -->
 	</div><!-- end entry-content -->
 
-</article>
+</article><!-- end post-<?php the_ID(); ?> -->

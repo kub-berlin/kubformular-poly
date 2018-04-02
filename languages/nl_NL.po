@@ -1,344 +1,635 @@
-# Translation of Yoko in Dutch
-# This file is distributed under the same license as the Yoko package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2014-07-03 03:44:21+0000\n"
+"Project-Id-Version: Yoko\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Jeroen Smeets <jeroen@jeroensmeets.net>\n"
+"Language-Team: Wolforg <contact@wolforg.eu>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/1.0-alpha-1000\n"
-"Project-Id-Version: Yoko\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: .\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
 
-#: header.php:23
-msgid "Menu"
-msgstr "Menu"
+#@ yoko
+#: 404.php:16
+msgid "Not Found"
+msgstr "Niet gevonden"
 
-#. Description of the plugin/theme
-#: wp-content/themes/pub/yoko/style.css
-msgid "Yoko is a modern three-column blog theme. A responsive layout optimizes the theme for mobile devices like tablet pcs and modern smartphones (the layout switches to a two- or one-column layout depending on the screen size the theme is viewed on). To make your blog post more flexible you can use different kinds of post formats such as gallery, image, video, aside, link or quotes. To customize the theme you can choose your own background, link color, and header image."
-msgstr "Yoko is een modern blog thema met drie kolommen. Een responsieve indeling optimaliseert het thema voor mobiele apparaten zoals tabletten, pc's en moderne smartphones (de indeling gaat over naar een indeling van twee of een kolommen, afhankelijk van de schermgrootte waarop het thema wordt bekeken). Om je blog post meer flexibel te maken kun je gebruik maken van verschillende soorten post formaten zoals gallerij, afbeelding, video, aside, link of quotes. Om het thema aan te passen kun je je eigen achtergrond, link, kleur en header afbeelding kiezen."
+#@ yoko
+#: 404.php:20
+msgid "Apologies, but the page you requested could not be found. Perhaps searching will help."
+msgstr "De opgevraagde pagina is helaas niet gevonden. Misschien helpt zoeken?"
 
-#. Template Name of the plugin/theme
-#: wp-content/themes/pub/yoko/full-width-page.php
-msgid "Full-width, no sidebar"
-msgstr "Volledige breedte, geen zijbalk"
-
-#: tag.php:16
-msgid "Tag Archives: %s"
-msgstr "Tagarchief: %s"
-
-#: sidebar.php:25
-msgid "Meta"
-msgstr "Meta"
-
-#: sidebar.php:19
-msgid "Archives"
+#@ yoko
+#: archive.php:24
+msgid "Blog Archives"
 msgstr "Archief"
 
-#: searchform.php:11
-msgid "Search"
-msgstr "Zoeken"
-
-#: searchform.php:9
-msgctxt "label"
-msgid "Search for:"
-msgstr "Zoek op:"
-
-#: search.php:34
-msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
-msgstr "Helaas, er zijn geen resultaten die overeenkomen met je criteria. Opnieuw proberen, met andere zoekwoorden?"
-
-#: search.php:30
-msgid "Nothing Found"
-msgstr "Niets gevonden"
-
-#: search.php:16
-msgid "Search Results for: %s"
-msgstr "Zoekresultaten voor: %s"
-
-#: inc/theme-options/theme-options.php:101
-msgid "Default color: #009bc2"
-msgstr "Standaardkleur: #009bc2"
-
-#: inc/theme-options/theme-options.php:114
-msgid "%s Theme Options"
-msgstr "%s thema instellingen"
-
-#: inc/theme-options/theme-options.php:98
-msgid "Select a Color"
-msgstr "Een kleur kiezen"
-
-#: inc/theme-options/theme-options.php:59
-#: inc/theme-options/theme-options.php:60
-msgid "Theme Options"
-msgstr "Thema opties"
-
-#: inc/custom-header.php:60
-msgid "Cape"
-msgstr "Kaap"
-
-#: inc/custom-header.php:65
-msgid "Seagull"
-msgstr "Zeemeeuw"
-
-#: inc/theme-options/theme-options.php:42
-msgid "Link Color"
-msgstr "Linkkleur"
-
-#: inc/custom-header.php:40
-msgid "Ginko"
-msgstr "Ginko"
-
-#: inc/custom-header.php:45
-msgid "Flowers"
-msgstr "Bloemen"
-
-#: inc/custom-header.php:50
-msgid "Plant"
-msgstr "Plant"
-
-#: inc/custom-header.php:55
-msgid "Sailing"
-msgstr "Zeilen"
-
-#: image.php:96
-msgid "Both comments and trackbacks are currently closed."
-msgstr "Reacties en trackbacks zijn beide gesloten op dit moment."
-
-#: image.php:94
-msgid "Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">post a comment</a>."
-msgstr "Trackbacks zijn gesloten, maar je kan <a class=\"comment-link\" href=\"#respond\" title=\"Plaats een reactie\">een reactie plaatsen</a>."
-
-#: image.php:92
-msgid "Comments are closed, but you can leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
-msgstr "Je kan geen reacties meer toevoegen, maar laat gerust een trackback na: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL voor je bericht\" rel=\"trackback\">Trackback URL</a>."
-
-#: image.php:90
-msgid "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
-msgstr "<a class=\"comment-link\" href=\"#respond\" title=\"Voeg een reactie toe\">Voeg een reactie toe</a> of laat een trackback achter: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL voor je bericht\" rel=\"trackback\">Trackback URL</a>."
-
-#: image.php:28
-msgid "Next Image &rarr;"
-msgstr "Volgende afbeelding &rarr;"
-
-#: image.php:27
-msgid "&larr; Previous Image"
-msgstr "&larr; Vorige afbeelding"
-
-#: functions.php:341
-msgid "An optional second sidebar area"
-msgstr ""
-
-#: functions.php:435
-msgid "Page %s"
-msgstr "Pagina %s"
-
-#: functions.php:331
-msgid "Primary sidebar area"
-msgstr "Primair zijbalkgebied"
-
-#: functions.php:339
-msgid "Sidebar 2"
-msgstr ""
-
-#: functions.php:329
-msgid "Sidebar 1"
-msgstr "Zijbalk1"
-
-#: functions.php:316
-msgid "Pingback:"
-msgstr "Pingback:"
-
-#: functions.php:301
-msgid "Your comment is awaiting moderation."
-msgstr "Je reactie is in afwachting van moderatie."
-
-#: functions.php:295
-msgid "%1$s at %2$s"
-msgstr "%1$s om %2$s"
-
-#. translators: used between list items, there is a space after the comma
-#: functions.php:161
-msgid "Tags: %2$s | <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">Permalink</a>."
-msgstr "Tags: %2$s | <a href=\"%3$s\" title=\"Permalink naar %4$s\" rel=\"bookmark\">Permalink</a>."
-
-#: functions.php:163
-msgid "<a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">Permalink</a>."
-msgstr "<a href=\"%3$s\" title=\"Permalink naar %4$s\" rel=\"bladwijzer\">Permalink</a>."
-
-#: functions.php:169
-msgid "Categories: %1$s | Tags: %2$s | <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">Permalink</a>."
-msgstr "Categorieën:%1$s | Tags:%2$s | <a href=\"%3$s\" title=\"Permalink naar %4$s\" rel=\"bookmark\"> Permalink </ a>."
-
-#: functions.php:171
-msgid "Categories: %1$s | <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">Permalink</a>."
-msgstr "Categorieën: %1$s | <a href=\"%3$s\" title=\"Permalink naar %4$s\" rel=\"bookmark\">Permalink</a>."
-
-#: functions.php:293
-msgid "%s"
-msgstr "%s"
-
-#. translators: used between list items, there is a space after the comma
-#: functions.php:153
-msgid ", "
-msgstr ", "
-
-#: functions.php:136
-msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
-msgstr "Nieuwere berichten <span class=\"meta-nav\">&rarr;</span>"
-
-#: functions.php:126
-msgctxt "Previous post link"
-msgid "&larr; Previous Post"
-msgstr "&larr; Vorig Bericht"
-
-#: functions.php:127
-msgctxt "Next post link"
-msgid "Next Post &rarr;"
-msgstr "Volgend Bericht &rarr;"
-
-#: functions.php:132
-msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
-msgstr "<span class=\"meta-nav\">&larr;</span> Oudere berichten"
-
-#: functions.php:65
-msgid "Sub Menu"
-msgstr "Sub-menu"
-
-#: functions.php:96
-msgid "<a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\" pubdate>%4$s</time></a><span class=\"byline\"> by <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
-msgstr "<a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\" pubdate>%4$s</time></a><span class=\"byline\"> door <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
-
-#: functions.php:122
-msgid "Post navigation"
-msgstr "Berichtnavigatie"
-
-#: functions.php:64
-msgid "Primary Navigation"
-msgstr "Primaire navigatie"
-
-#: footer.php:11
-msgid "Top"
-msgstr "Bovenkant"
-
-#: footer.php:10
-msgid "Theme: %1$s by %2$s."
-msgstr "Thema: %1$s door %2$s."
-
-#: content-single.php:50
-msgid "Author: %s"
-msgstr "Auteur: %s"
-
-#: content-gallery.php:63
-msgid "This gallery contains <a %1$s>%2$s photo</a>."
-msgid_plural "This gallery contains <a %1$s>%2$s photos</a>"
-msgstr[0] ""
-msgstr[1] ""
-
-#: content-gallery.php:63
-msgid "Permalink to %s"
-msgstr "Permalink naar %s"
-
-#: content-gallery.php:22 content-gallery.php:27 content-gallery.php:59
-msgid "View the pictures &rarr;"
-msgstr "Bekijk de afbeeldingen &rarr;"
-
-#: content-aside.php:35 content-gallery.php:73 content-image.php:26
-#: content-link.php:15 content-page.php:17 content-quote.php:35
-#: content-single.php:42 content-video.php:26 content.php:46 functions.php:295
-#: functions.php:316 image.php:98
-msgid "Edit"
-msgstr "Bewerken"
-
-#: content-aside.php:30 content-gallery.php:68 content-image.php:21
-#: content-page.php:16 content-quote.php:30 content-single.php:36
-#: content-video.php:21 content.php:40 image.php:82
+#@ yoko
+#: content-aside.php:18
+#: content-gallery.php:53
+#: content-image.php:17
+#: content-page.php:17
+#: content-quote.php:18
+#: content-single.php:28
+#: content-video.php:17
+#: content.php:28
+#: image.php:68
 msgid "Pages:"
-msgstr "Pagina&#39;s:"
+msgstr "Pagina's"
 
-#: content-aside.php:29 content-image.php:20 content-link.php:10
-#: content-quote.php:29 content-single.php:34 content-video.php:20
-#: content.php:39 functions.php:247
-msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
-msgstr "Lees verder <span class=\"meta-nav\">&rarr;</span>"
+#@ yoko
+#: category.php:14
+#, php-format
+msgid "Category Archives: %s"
+msgstr "Archief voor de categorie : %s"
 
-#: content-aside.php:23 content-gallery.php:15 content-image.php:15
-#: content-quote.php:23 content-single.php:24 content-video.php:15
-#: content.php:26 image.php:21
-msgid "% Comments"
-msgstr "% reacties"
+#@ yoko
+#: comments.php:10
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr "Deze blogpost is afgeschermd met een wachtwoord. Voer het in om de reacties te lezen."
 
-#: content-aside.php:23 content-gallery.php:15 content-image.php:15
-#: content-quote.php:23 content-single.php:24 content-video.php:15
-#: content.php:26 image.php:21
-msgid "1 Comment"
-msgstr ""
+#@ yoko
+#: comments.php:32
+#: comments.php:43
+msgid "Comment navigation"
+msgstr "Navigatie door de reacties"
 
-#: content-aside.php:12 content-quote.php:12 content.php:15
-msgid "<a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\" pubdate>%4$s</time></a><br/><span class=\"byline\"> by <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
-msgstr "<a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\" pubdate>%4$s</time></a><br/><span class=\"byline\"> door <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
-
-#: content-aside.php:18 content-quote.php:18 content.php:21 functions.php:102
-msgid "View all posts by %s"
-msgstr "Bekijk alle berichten van %s"
-
-#: comments.php:47
-msgid "Comments are closed."
-msgstr "Reacties zijn gesloten."
-
-#: comments.php:37
-msgid "Newer Comments &rarr;"
-msgstr "Nieuwe reacties &rarr;"
-
-#: comments.php:36
+#@ yoko
+#: comments.php:33
+#: comments.php:44
 msgid "&larr; Older Comments"
 msgstr "&larr; Oudere reacties"
 
-#: comments.php:24
-msgid "One thought on &ldquo;%2$s&rdquo;"
-msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
-msgstr[0] ""
-msgstr[1] ""
+#@ yoko
+#: comments.php:34
+#: comments.php:45
+msgid "Newer Comments &rarr;"
+msgstr "Nieuwere reacties &rarr;"
 
-#: comments.php:28 content-aside.php:23 content-gallery.php:15
-#: content-image.php:15 content-quote.php:23 content-single.php:24
-#: content-video.php:15 content.php:26 image.php:21
-msgid "Leave a comment"
-msgstr "Een reactie plaatsen"
+#@ yoko
+#: comments.php:68
+msgid "<p class=\"comment-notes\">Required fields are marked <span class=\"required\">*</span>.</p>"
+msgstr "<p class=\"comment-notes\">Verplichte velden zijn aangegeven met een <span class=\"required\">*</span>.</p>"
 
-#: comments.php:9
-msgid "This post is password protected. Enter the password to view any comments."
-msgstr "Dit bericht is beveiligd met een wachtwoord. Geef het wachtwoord om de reacties te bekijken."
+#@ yoko
+#: content-aside.php:12
+#: content-gallery.php:13
+#: content-image.php:13
+#: content-quote.php:12
+#: content-single.php:18
+#: content-video.php:13
+#: content.php:15
+#: image.php:18
+msgid "by"
+msgstr "door"
 
-#: category.php:14
-msgid "Category Archives: %s"
-msgstr "Categorie archief: %s"
+#@ yoko
+#: content-image.php:16
+#: content-link.php:11
+#: content-quote.php:17
+#: content-single.php:25
+#: content-video.php:16
+#: content.php:27
+msgid "Continue Reading &rarr;"
+msgstr "Lees verder &rarr;"
 
-#: author.php:15
-msgid "Author Archives: <span class=\"vcard\">%s</span>"
-msgstr "Auteur archieven: <span class=\"vcard\">%s</span>"
+#@ yoko
+#: content-aside.php:22
+#: content-gallery.php:57
+#: content-image.php:21
+#: content-link.php:15
+#: content-quote.php:22
+#: content-single.php:33
+#: content-video.php:21
+#: content.php:33
+#, php-format
+msgid "Categories: %2$s"
+msgstr "Categorieën: %2$s"
 
-#: archive.php:22
-msgid "Blog Archives"
-msgstr "Site-archief"
+#@ yoko
+#: content-aside.php:29
+#: content-gallery.php:64
+#: content-image.php:28
+#: content-link.php:22
+#: content-page.php:18
+#: content-quote.php:29
+#: content-single.php:40
+#: content-video.php:28
+#: content.php:40
+#: functions.php:227
+#: image.php:83
+msgid "Edit &rarr;"
+msgstr "Bewerk &rarr;"
 
-#: archive.php:20
-msgid "Yearly Archives: <span>%s</span>"
-msgstr "Jaarlijkse archieven: <span>%s</span>"
+#@ yoko
+#: content-gallery.php:12
+#: content-gallery.php:46
+#: content-image.php:12
+#: content-video.php:12
+#: content.php:20
+#, php-format
+msgid "Permalink to %s"
+msgstr "Permanente link naar %s"
 
+#@ yoko
+#: functions.php:52
+msgid "Primary Navigation"
+msgstr "Primaire navigatie"
+
+#@ yoko
+#: header.php:22
+#, php-format
+msgid "Page %s"
+msgstr "Bladzijde %s"
+
+#@ yoko
+#: content-aside.php:17
+#: functions.php:171
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Lees verder <span class=\"meta-nav\">&rarr;</span>"
+
+#@ yoko
+#. translators: 1: date, 2: time
+#: functions.php:227
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s om %2$s"
+
+#@ yoko
+#: functions.php:223
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+#@ yoko
+#: functions.php:234
+msgid "Your comment is awaiting moderation."
+msgstr "Je reactie wacht op goedkeuring."
+
+#@ yoko
+#: functions.php:252
+msgid "Pingback:"
+msgstr "Pingback :"
+
+#@ yoko
+#: functions.php:252
+msgid "(Edit)"
+msgstr "(Bewerk)"
+
+#@ yoko
+#: functions.php:264
+msgid "Sidebar 1"
+msgstr "Zijbalk 1"
+
+#@ yoko
+#: functions.php:273
+msgid "Sidebar 2"
+msgstr "Zijbalk 2"
+
+#@ yoko
+#: functions.php:275
+msgid "An second sidebar area"
+msgstr "Een tweede zijbalk"
+
+#@ yoko
+#: functions.php:319
+msgid "Search"
+msgstr "Zoek"
+
+#@ yoko
+#: search.php:16
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Zoekresultaten voor: %s"
+
+#@ yoko
+#: search.php:38
+msgid "Nothing Found"
+msgstr "Niets gevonden"
+
+#@ yoko
+#: search.php:42
+msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+msgstr "Helaas, niets gevonden. Probeer andere trefwoorden."
+
+#@ yoko
+#: sidebar.php:18
+msgid "Archives"
+msgstr "Archief"
+
+#@ yoko
+#: single.php:23
+msgctxt "Previous post link"
+msgid "&larr;  Previous Post"
+msgstr "&larr;  Eerdere blogpost"
+
+#@ yoko
+#: single.php:24
+msgctxt "Next post link"
+msgid "Next Post &rarr;"
+msgstr "Volgende blogpost &rarr;"
+
+#@ yoko
+#: tag.php:18
+#, php-format
+msgid "Tag Archives: %s"
+msgstr "Archief voor trefwoord:  %s"
+
+#@ yoko
 #: archive.php:18
-msgid "Monthly Archives: <span>%s</span>"
-msgstr "Maandelijks archief: <span>%s</span>"
-
-#: archive.php:16
+#, php-format
 msgid "Daily Archives: <span>%s</span>"
-msgstr "Dagelijks archief: <span>%s</span>"
+msgstr "Archief per dag: <span>%s</span>"
 
-#: 404.php:17
-msgid "Apologies, but the page you requested could not be found. Perhaps searching will help."
-msgstr "Helaas, maar de door u opgevraagde pagina kon niet worden gevonden. Misschien kan zoeken helpen."
+#@ yoko
+#: archive.php:20
+#, php-format
+msgid "Monthly Archives: <span>%s</span>"
+msgstr "Archief per maand: <span>%s</span>"
 
-#: 404.php:13
-msgid "Not Found"
-msgstr "Niet gevonden"
+#@ yoko
+#: archive.php:22
+#, php-format
+msgid "Yearly Archives: <span>%s</span>"
+msgstr "Archief per jaar: <span>%s</span>"
+
+#@ yoko
+#: author.php:16
+#, php-format
+msgid "Author Archives: <span class=\"vcard\">%s</span>"
+msgstr "Archief voor auteur <span class=\"vcard\">%s</span>"
+
+#@ yoko
+#: comments.php:26
+#, php-format
+msgid "One Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] "Eén reactie"
+msgstr[1] "%1$s reacties"
+
+#@ yoko
+#: image.php:75
+#, php-format
+msgid "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "<a class=\"comment-link\" href=\"#respond\" title=\"Poster un commentaire\">Schrijf een reactie</a> of een trackback: <a class=\"trackback-link\" href=\"%s\" title=\"URL van de trackback\" rel=\"trackback\">URL van de trackback</a>."
+
+#@ yoko
+#: image.php:77
+#, php-format
+msgid "Comments are closed, but you can leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "De reacties zijn gesloten, maar je kunt een trackback achterlaten: <a class=\"trackback-link\" href=\"%s\" title=\"URL van de trackback\" rel=\"trackback\">URL van de trackback</a>."
+
+#@ yoko
+#: image.php:79
+msgid "Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">post a comment</a>."
+msgstr "Trackbacks afgesloten, maar je kunt een <a class=\"comment-link\" href=\"#respond\" title=\"Een reactie achterlaten\">reactie achterlaten</a>."
+
+#@ yoko
+#: image.php:81
+msgid "Both comments and trackbacks are currently closed."
+msgstr "Reacties en trackbacks afgesloten."
+
+#@ yoko
+#: functions.php:432
+msgid "Title:"
+msgstr "Titel:"
+
+#@ yoko
+#: functions.php:434
+msgid "RSS Text:"
+msgstr "RSS tekst:"
+
+#@ yoko
+#: functions.php:436
+msgid "RSS  URL:"
+msgstr "URL RSS :"
+
+#@ yoko
+#: functions.php:438
+msgid "Twitter Text:"
+msgstr "Twitter tekst:"
+
+#@ yoko
+#: functions.php:439
+msgid "Twitter  URL:"
+msgstr "URL Twitter :"
+
+#@ yoko
+#: functions.php:440
+msgid "Facebook Text:"
+msgstr "Facebook tekst:"
+
+#@ yoko
+#: functions.php:441
+msgid "Facebook URL:"
+msgstr "URL Facebook :"
+
+#@ yoko
+#: functions.php:442
+msgid "Flickr Text:"
+msgstr "Flickr tekst:"
+
+#@ yoko
+#: functions.php:443
+msgid "Flickr URL:"
+msgstr "URL Flickr :"
+
+#@ yoko
+#: functions.php:446
+msgid "LinkedIn Text:"
+msgstr "LinkedIn tekst:"
+
+#@ yoko
+#: functions.php:447
+msgid "LinkedIn URL:"
+msgstr "URL LinkedIn :"
+
+#@ yoko
+#: functions.php:448
+msgid "Delicious Text:"
+msgstr "Delicious tekst:"
+
+#@ yoko
+#: functions.php:449
+msgid "Delicious URL:"
+msgstr "URL Delicious :"
+
+#@ yoko
+#: content-gallery.php:19
+#: content-gallery.php:24
+#: content-gallery.php:42
+msgid "View the pictures &rarr;"
+msgstr "Bekijk de afbeeldingen &rarr;"
+
+#@ yoko
+#: archive.php:41
+#: author.php:31
+#: category.php:28
+#: index.php:22
+#: search.php:29
+#: tag.php:34
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Eerdere blogposts"
+
+#@ yoko
+#: archive.php:42
+#: author.php:32
+#: category.php:29
+#: index.php:23
+#: search.php:30
+#: tag.php:35
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Nieuwere blogposts <span class=\"meta-nav\">&rarr;</span>"
+
+#@ yoko
+#: content-gallery.php:45
+#, php-format
+msgid "This gallery contains <a %1$s>%2$s photo</a>."
+msgid_plural "This gallery contains <a %1$s>%2$s photos</a>"
+msgstr[0] "Deze gallerij bevat <a %1$s>%2$s foto</a>."
+msgstr[1] "Deze gallerij bevat <a %1$s>%2$s foto's</a>"
+
+#@ yoko
+#: content-single.php:47
+#, php-format
+msgid "Author: %s"
+msgstr "Auteur: %s"
+
+#@ yoko
+#: footer.php:11
+#, php-format
+msgid "Theme: %1$s by %2$s"
+msgstr "Vormgeving: %1$s door %2$s"
+
+#@ yoko
+#: footer.php:12
+msgid "Top"
+msgstr "Top"
+
+#@ yoko
+#: functions.php:444
+msgid "Vimeo Text:"
+msgstr "Vimeo tekst:"
+
+#@ yoko
+#: functions.php:445
+msgid "Vimeo URL:"
+msgstr "URL Vimeo :"
+
+#@ yoko
+#: sidebar.php:13
+msgid "Categories"
+msgstr "Categorieën"
+
+#@ yoko
+#: sidebar.php:36
+msgid "Recent Posts"
+msgstr "Laatste blogposts"
+
+#@ yoko
+#: sidebar.php:43
+msgid "Calendar"
+msgstr "Kalender"
+
+#@ yoko
+#: sidebar.php:48
+msgid "Links"
+msgstr "Links"
+
+#@ yoko
+#: themeoptions/theme-options.php:51
+msgid " Theme Options"
+msgstr "Theme opties"
+
+#@ yoko
+#: themeoptions/theme-options.php:55
+msgid "Options saved"
+msgstr "Opties opgeslagen"
+
+#@ yoko
+#: themeoptions/theme-options.php:69
+msgid "Custom Link Color"
+msgstr "Aangepaste link-kleur"
+
+#@ default
+#: themeoptions/theme-options.php:71
+msgid "custom_color"
+msgstr "custom_color"
+
+#@ yoko
+#: themeoptions/theme-options.php:76
+msgid "e.g. #0000FF or blue (default link color: #009BC2)"
+msgstr "bijvoorbeeld #001162 of bleu (standaardwaarde: #009BC2)"
+
+#@ yoko
+#: themeoptions/theme-options.php:80
+msgid "Custom Logo Image URL"
+msgstr "URL naar eigen logo"
+
+#@ default
+#: themeoptions/theme-options.php:82
+msgid "custom_logo"
+msgstr "custom_logo"
+
+#@ yoko
+#: themeoptions/theme-options.php:83
+msgid "Upload your own logo image"
+msgstr "Upload je eigen logo afbeelding"
+
+#@ yoko
+#: themeoptions/theme-options.php:83
+msgid " using the WordPress Media Library and insert the URL here"
+msgstr "gebruik de Wordpress Afbeeldingenbibliotheek en plak de URL hier"
+
+#@ yoko
+#: themeoptions/theme-options.php:90
+msgid "Save Options"
+msgstr "Bewaar opties"
+
+#@ yoko
+#: content-aside.php:13
+#: content-gallery.php:14
+#: content-image.php:13
+#: content-quote.php:13
+#: content-single.php:18
+#: content-video.php:13
+#: content.php:16
+#: image.php:18
+msgid "0 comments"
+msgstr "Geen reacties"
+
+#@ yoko
+#: content-aside.php:13
+#: content-gallery.php:14
+#: content-image.php:13
+#: content-quote.php:13
+#: content-single.php:18
+#: content-video.php:13
+#: content.php:16
+#: image.php:18
+msgid "1 Comment"
+msgstr "1 reactie"
+
+#@ yoko
+#: content-aside.php:13
+#: content-gallery.php:14
+#: content-image.php:13
+#: content-quote.php:13
+#: content-single.php:18
+#: content-video.php:13
+#: content.php:16
+#: image.php:18
+msgid "% Comments"
+msgstr "% reacties"
+
+#@ yoko
+#: comments.php:29
+msgid "Leave a reply &rarr;"
+msgstr "Beantwoord &rarr;"
+
+#@ yoko
+#: comments.php:70
+msgctxt "noun"
+msgid "Message <span class=\"required\">*</span>"
+msgstr "Bericht <span class=\"requis\">*</span>"
+
+#@ yoko
+#. translators: header image description
+#: functions.php:91
+msgid "Ginko"
+msgstr "Blad verliezende conifeer"
+
+#@ yoko
+#. translators: header image description
+#: functions.php:97
+msgid "Flowers"
+msgstr "Bloemen"
+
+#@ yoko
+#. translators: header image description
+#: functions.php:103
+msgid "Plant"
+msgstr "Plant"
+
+#@ yoko
+#. translators: header image description
+#: functions.php:109
+msgid "Sailing"
+msgstr "Zeilboten"
+
+#@ yoko
+#. translators: header image description
+#: functions.php:115
+msgid "Cape"
+msgstr "Kaap"
+
+#@ yoko
+#. translators: header image description
+#: functions.php:121
+msgid "Seagull"
+msgstr "Zeemeeuw"
+
+#@ yoko
+#: image.php:22
+msgid "&larr; Previous Image"
+msgstr "&larr; Vorige afbeelding"
+
+#@ yoko
+#: image.php:23
+msgid "Next Image &rarr;"
+msgstr "Volgende afbeelding &rarr;"
+
+#@ yoko
+#: themeoptions/theme-options.php:37
+msgid "Theme Options"
+msgstr "Theme opties"
+
+#@ yoko
+#: functions.php:340
+msgid "Link to your social profiles like twitter, facebook or flickr."
+msgstr "Link naar je profielen op bijvoorbeeld Twitter, Facebook en Flickr."
+
+#@ yoko
+#: comments.php:61
+msgid "Comments are closed."
+msgstr "Reacties gesloten."
+
+#@ yoko
+#: content-aside.php:26
+#: content-gallery.php:61
+#: content-image.php:25
+#: content-link.php:19
+#: content-quote.php:26
+#: content-single.php:37
+#: content-video.php:25
+#: content.php:37
+#, php-format
+msgid "Tags: %2$s"
+msgstr "Trefwoorden: %2$s"
+
+#@ yoko
+#: content-aside.php:28
+#: content-gallery.php:63
+#: content-image.php:27
+#: content-link.php:21
+#: content-quote.php:28
+#: content-single.php:39
+#: content-video.php:27
+#: content.php:39
+msgid "Permalink "
+msgstr "Permanente link"
+
+#@ yoko
+#: themeoptions/theme-options.php:73
+msgid "Select a Color"
+msgstr "Kies een kleur"
+
