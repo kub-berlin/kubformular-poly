@@ -168,11 +168,10 @@ body {
 --------------------------------------------- */
 a {
 	color: #009BC2;
-	text-decoration: none;
 }
+a:focus,
 a:hover {
-	color: #777!important;
-	text-decoration: underline;
+	color: #003a3d;
 }
 /* Lists
 --------------------------------------------- */
@@ -225,8 +224,12 @@ a:hover {
 	display: block;
 	float: left;
 }
+#site-title a {
+	text-decoration: none;
+}
+#site-title h1 a:focus,
 #site-title h1 a:hover {
-	text-decoration:none;
+	color: inherit;
 }
 #site-title h2 {
 	font:italic .9em 'Droid Serif',  Times, serif;
@@ -265,14 +268,15 @@ hgroup#site-title img {
 	display: block;
 	font-size: .8em;
 	text-transform: uppercase;
+	text-decoration: none;
 }
 #branding #mainnav ul li:first-child {
 	margin: 0px;
 }
+#branding #mainnav ul li a:focus,
 #branding #mainnav ul li a:hover {
 	background:#F0F0F0;
 	color: #999;
-	text-decoration: none;
 }
 #branding #mainnav ul ul {
 	display: none;
@@ -297,6 +301,7 @@ hgroup#site-title img {
 #branding #mainnav ul ul :hover > a {
 	background: #F0F0F0;
 }
+#branding #mainnav ul ul a:focus,
 #branding #mainnav ul ul a:hover {
 	background: #F0F0F0;
 }
@@ -356,10 +361,6 @@ nav#subnav ul.menu li.menu-item ul.sub-menu li.menu-item a {
 	margin: 0 0 12px;
 	font: bold 1.3em/1.4 'Droid Sans', arial, sans-serif;
 }
-#content .entry-header h2.entry-title a:hover {
-	color: #777;
-	text-decoration: none;
-}
 #content .post p {
 	padding: 0 0 20px;
 }
@@ -404,9 +405,6 @@ nav#subnav ul.menu li.menu-item ul.sub-menu li.menu-item a {
 .page-link a {
 	font-weight: bold;
 	margin: 0 1px;
-}
-.page-link a:hover {
-	text-decoration: none;
 }
 /* --- Sticky Post --- */
 #content .sticky {
@@ -650,9 +648,6 @@ nav#subnav ul.menu li.menu-item ul.sub-menu li.menu-item a {
 	font-size: .9em;
 	line-height: 1.5;
 }
-#content .post .author-description a:hover {
-	text-decoration: underline;
-}
 /* --- Post Nav Below --- */
 #content #image-nav {
 	margin: 30px 0 3px 0;
@@ -675,7 +670,10 @@ nav#subnav ul.menu li.menu-item ul.sub-menu li.menu-item a {
 	font-size: .9em;
 	font-weight: bold;
 }
-#content #nav-below .nav-previous a:hover, #content #nav-below .nav-next a:hover, #content #image-nav span.previous-image a:hover, #content #image-nav span.next-image a:hover {
+#content #nav-below .nav-previous a,
+#content #nav-below .nav-next a,
+#content #image-nav span.previous-image a,
+#content #image-nav span.next-image a {
 	text-decoration: none;
 }
 
@@ -799,7 +797,10 @@ input#submit, input.wpcf7-submit {
 	letter-spacing: 1px;
 	cursor: pointer;
 }
-input#submit:hover, input.wpcf7-submit:hover {
+input#submit:focus,
+input#submit:hover,
+input.wpcf7-submit:focus,
+input.wpcf7-submit:hover {
 	background-color: #009BC2;
 	color: #fff;
 }
@@ -1074,6 +1075,7 @@ aside.widget ul li:last-child {
 	letter-spacing: 1px;
 	cursor: pointer;
 }
+.searchsubmit:focus,
 .searchsubmit:hover {
 	color: #fff;
 	background-color: #009BC2;
@@ -1182,9 +1184,6 @@ a.top {
 	margin: 3px 0 0 0;
 	font-weight: bold;
 	display: block;
-}
-a.top:hover {
-	text-decoration: none;
 }
 
 /* Clearing Floats
@@ -1457,10 +1456,10 @@ nav#subnav ul.menu li.menu-item a {
 	float: left;
 	display: block;
 	background-color: #F0F0F0;
+	text-decoration: none;
 }
 nav#subnav ul.menu li.menu-item a:hover, nav#subnav ul.menu li.menu-item a:active, nav#subnav ul.menu li.menu-item a:focus {
 	background: #D4D4D4;
-	text-decoration: none;
 }
 nav#subnav ul.menu li.menu-item ul.sub-menu li.menu-item {
 	display: none;
@@ -1548,7 +1547,8 @@ a#cancel-comment-reply-link {
 	display: block;
 	text-align: right;
 }
-#content #nav-below .nav-previous a:hover, #content #nav-below .nav-next a:hover {
+#content #nav-below .nav-previous a,
+#content #nav-below .nav-next a {
 	text-decoration: none;
 }
 /* --- Post Formats ---- */
@@ -1654,4 +1654,8 @@ a#cancel-comment-reply-link {
 }
 #polylang-2 a {
 	text-decoration: none;
+}
+
+.widget img {
+	max-width: 100%;
 }
