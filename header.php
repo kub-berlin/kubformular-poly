@@ -20,10 +20,6 @@
 <body <?php body_class(); ?>>
 <div id="page" class="clearfix">
 	<header id="branding">
-		<nav id="mainnav" class="clearfix">
-			<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
-		</nav><!-- end mainnav -->
-
 		<?php global $yoko_options;
 		$yoko_settings = get_option( 'yoko_options', $yoko_options ); ?>
 
@@ -49,7 +45,12 @@
 						elseif ( get_header_image() ) : ?>
 						<img src="<?php header_image(); ?>" class="headerimage" width="<?php echo HEADER_IMAGE_WIDTH; ?>" height="<?php echo HEADER_IMAGE_HEIGHT; ?>" alt="" /><!-- end headerimage -->
 					<?php endif; ?>
-					<div class="clear"></div>
+
+		<nav id="mainnav" class="clearfix">
+			<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
+		</nav><!-- end mainnav -->
+
+		<div class="clear"></div>
 
 		<nav id="subnav">
 			<?php
