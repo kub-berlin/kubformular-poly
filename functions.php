@@ -38,7 +38,8 @@ function yoko_fonts_url() {
 
 	$droid_serif = _x( 'on', 'Droid Serif font: on or off', 'yoko' );
 
-	if ( 'off' !== $droid_sans || 'off' !== $droid_serif ) {
+	if ( false ) {
+	// if ( 'off' !== $droid_sans || 'off' !== $droid_serif ) {
 		$font_families = array();
 
 		if ( 'off' !== $droid_sans )
