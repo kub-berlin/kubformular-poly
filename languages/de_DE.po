@@ -634,3 +634,10 @@ msgstr "Permalink"
 msgid "Select a Color"
 msgstr "Wähle eine Farbe"
 
+#@ yoko
+msgid "Privacy"
+msgstr "Datenschutz"
+
+#@ yoko
+msgid "Imprint"
+msgstr "Impressum"
